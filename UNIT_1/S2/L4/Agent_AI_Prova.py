@@ -16,7 +16,7 @@ config = types.GenerateContentConfig(
 )
 
 while True:
-    domanda = input("Tu: ")
+    domanda = input("Cosa vuoi sapere? : ")
     if domanda.lower() == "esci":
         print("Arrivederci!")
         break
